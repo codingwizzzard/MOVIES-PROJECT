@@ -1,0 +1,51 @@
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #0f0617;
+    color: #ffffff;
+}
+
+th,
+td {
+    vertical-align: middle;
+    color: #ffffff;
+}
+
+.table {
+    --bs-table-bg: #1e0c32 !important;
+    border-color: #ffffff;
+    color: white;
+    --bs-table-color: white !important;
+}
+
+.table th {
+    background-color: #0f0617;
+    color: #ffffff;
+    border-color: #ffffff;
+}
+
+.btn {
+    color: #ffffff;
+}
+
+.btn-danger {
+    background-color: #ff3860;
+    border-color: #ff3860;
+}
+
+.btn-danger:hover {
+    background-color: #e0294f;
+    border-color: #e0294f;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}

@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #0f0617 !important;
+}
+
+.navbar {
+    background-color: #0f0617;
+    width: 100%;
+    padding: 0.5rem 1rem;
+}
+
+.navbar .navbar-brand img {
+    height: 40px;
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff;
+    margin-right: 20px;
+    font-weight: 500;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ffffff;
+    border-radius: 25px;
+    padding: 5px 10px;
+    margin-right: 20px;
+}
+
+.search-bar input {
+    border: none;
+    background: none;
+    color: #ffffff;
+    width: 200px;
+    outline: none;
+}
+
+.search-bar input::placeholder {
+    color: #cccccc;
+}
+
+.btn-login {
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    /* border-radius: 20px; */
+    padding: 5px 20px;
+    background-color: transparent;
+}
+
+.btn-login:hover {
+    background-color: #fff;
+}
