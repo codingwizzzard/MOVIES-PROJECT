@@ -41,9 +41,7 @@ const addPage = async (req, res) => {
                 res.redirect('/') 
             }
         } else {
-            if (req.file) {
-                image = req.file.path  
-            }
+            image = req.file.path  
             await userDB.create({ name, description, time, rating, image, genre }) 
             res.redirect('/') 
         }
