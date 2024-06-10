@@ -82,7 +82,7 @@ const deleteData = async (req, res) => {
         await fs.unlinkSync(data.image)
 
         await userDB.findByIdAndDelete(id)
-        res.redirect('/')
+        res.redirect('/edittbl')
     } catch (error) {
         console.log(error)
         return false

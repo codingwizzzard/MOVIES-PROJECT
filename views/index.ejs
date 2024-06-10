@@ -10,14 +10,12 @@
   <!-- Bootstrap CSS -->
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
   <!-- css -->
-   <link rel="stylesheet" href="../assets/css/index.css">
+  <link rel="stylesheet" href="../assets/css/index.css">
 </head>
 
 <body>
 
   <%- include('./partials/header.ejs') %>
-
-
     <div class="container">
       <div class="row">
         <% data.map((val)=> { %>
@@ -28,6 +26,9 @@
                 <h5 class="card-title">
                   <%= val.name %>
                 </h5>
+                <p class="card-text fw-bold">
+                  <%= val.description %>
+                </p>
                 <p class="card-text">
                   <%= val.time %> • <%= val.genre %>
                 </p>
