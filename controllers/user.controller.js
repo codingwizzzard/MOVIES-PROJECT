@@ -77,7 +77,7 @@ const deleteData = async (req, res) => {
     let { id } = req.params
     try {
         let data = await userDB.findById(id)
-        await fs.unlinkSync(data.image)
+        fs.unlinkSync(data.image)
 
         await userDB.findByIdAndDelete(id)
         res.redirect('/edittbl')
